@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/crossfit_graph"
+    app:startDestination="@id/crossfit1Fragment">
+
+    <fragment
+        android:id="@+id/crossfit1Fragment"
+        android:name="com.cefehe.p3_gym.Crossfit1Fragment"
+        android:label="WHAT'S CROSSFIT?"
+        tools:layout="@layout/fragment_crossfit1" />
+
+    <fragment
+        android:id="@+id/crossfit3Fragment"
+        android:name="com.cefehe.p3_gym.Return" />
+
+
+    <fragment
+        android:id="@+id/crossfit2Fragment"
+        android:name="com.cefehe.p3_gym.Crossfit2Fragment"
+        android:label="FITTEST ON EARTH"
+        tools:layout="@layout/fragment_crossfit2" />
+    <fragment
+        android:id="@+id/haltero"
+        android:name="com.cefehe.p3_gym.haltero"
+        android:label="fragment_haltero"
+        tools:layout="@layout/fragment_haltero" />
+    <fragment
+        android:id="@+id/gimnasticos"
+        android:name="com.cefehe.p3_gym.gimnasticos"
+        android:label="fragment_gimnasticos"
+        tools:layout="@layout/fragment_gimnasticos" />
+    <fragment
+        android:id="@+id/endurance"
+        android:name="com.cefehe.p3_gym.endurance"
+        android:label="fragment_endurance"
+        tools:layout="@layout/fragment_endurance" />
+</navigation>
